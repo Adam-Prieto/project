@@ -1,4 +1,12 @@
-// The backup class for a pseudo-database
+/**
+ * Update CSV by row and column
+ *
+ * @param fileToUpdate CSV file path to update e.g. D:\\chetan\\test.csv
+ * @param replace Replacement for your cell value
+ * @param row Row for which need to update
+ * @param col Column for which you need to update
+ * @throws IOException
+ */
 public class DataEntry {
 	public static final int SUPPLIER_ID_LENGTH = 8;
 	public static final String BAD_SUPPLIER_ID_LENGTH =
